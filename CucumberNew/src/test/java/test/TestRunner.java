@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-//@RunWith(Cucumber.class)
+//@RunWith(Cucumber.class)dsarvtrr
 
 @CucumberOptions(features="src/test/resources/features",plugin = {
 		"pretty",

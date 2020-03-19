@@ -34,7 +34,7 @@ public class Tester {
 	@Then("^I got a \"([a-zA-Z]{1,})\" paid job$")
 	public void I_got_a_less_paid_job(String jobType){
 		
-		System.out.println("@Then -- I got a "+jobType+" paid job");
+		System.out.println("@Thcdcgot a "+jobType+" paid job");
 		
 	}
 	
