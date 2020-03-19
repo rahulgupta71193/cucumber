@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.006" errors="0" skipped="0" tests="18" name="test.TestRunner">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="CucumberMavenReportingPlugin"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\Selenium\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="3970234a45c5db80"/>
+    <property name="POM_ARTIFACTID" value="CucumberNew"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_75\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_75\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="CucumberNew"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\Selenium\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.7.0_75-b13"/>
+    <property name="ANT_HOME" value="C:\Softwares\apache-ant-1.8.2-bin\apache-ant-1.8.2"/>
+    <property name="user.name" value="Selenium"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="OnlineServices" value="Online Services"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_75\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Selenium\AppData\Local"/>
+    <property name="java.version" value="1.7.0_75"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="Selenium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="3"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="=::" value="::\"/>
+    <property name="user.country" value="IN"/>
+    <property name="LR_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="LOG_FILE" value="C:\Users\Selenium\AppData\Local\Temp\\ihp_custom_batches.log"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_75\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="=ExitCode" value="00000082"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\Selenium\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="24.75-b04"/>
+    <property name="user.variant" value=""/>
+    <property name="Platform" value="MCD"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="VUGEN_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_75"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\Selenium"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="SELENIUM-W2A"/>
+    <property name="POM_GROUPID" value="com.w2a"/>
+    <property name="user.home" value="C:\Users\Selenium"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-CucumberMavenReportingPlugin-3"/>
+    <property name="JENKINS_SERVER_COOKIE" value="3970234a45c5db80"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\Selenium"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Softwares\apache-maven-3.0.4-bin\apache-maven-3.0.4\/bin;C:\Program Files\Java\jdk1.7.0_75/bin;C:\Program Files\Java\jdk1.7.0_75/bin;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Softwares\apache-ant-1.8.2-bin\apache-ant-1.8.2\bin;c:\softwares\IEDriverServer.exe;C:\Program Files\TortoiseSVN\bin;C:\Softwares\chromedriver.exe;C:\Softwares\apache-maven-3.1.0\bin;C:\Users\Selenium\AppData\Local\Android\sdk\tools;C:\Users\Selenium\AppData\Local\Android\sdk\platform-tools;C:\Program Files (x86)\nodejs\;C:\Softwares\shell.w32-ix86\bash.exe;C:\Python27;C:\Program Files\Java\jdk1.7.0_75\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Softwares\jars\libs;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\Selenium\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Softwares\apache-maven-3.0.4-bin\apache-maven-3.0.4"/>
+    <property name="java.class.path" value="C:\Users\Selenium\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-agent-1.5.jar;C:\Softwares\apache-maven-3.0.4-bin\apache-maven-3.0.4\boot\plexus-classworlds-2.4.jar"/>
+    <property name="sun.java.command" value="org.jvnet.hudson.maven3.agent.Maven3Main C:\Softwares\apache-maven-3.0.4-bin\apache-maven-3.0.4\ C:\Users\Selenium\.jenkins\war\WEB-INF\lib\remoting-2.51.jar C:\Users\Selenium\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-1.5.jar C:\Users\Selenium\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 22027"/>
+    <property name="LG_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.7.0_75/bin;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Softwares\apache-ant-1.8.2-bin\apache-ant-1.8.2\bin;c:\softwares\IEDriverServer.exe;C:\Program Files\TortoiseSVN\bin;C:\Softwares\chromedriver.exe;C:\Softwares\apache-maven-3.1.0\bin;C:\Users\Selenium\AppData\Local\Android\sdk\tools;C:\Users\Selenium\AppData\Local\Android\sdk\platform-tools;C:\Program Files (x86)\nodejs\;C:\Softwares\shell.w32-ix86\bash.exe;C:\Python27;C:\Program Files\Java\jdk1.7.0_75\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Softwares\jars\libs"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.7.0_75/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Softwares\apache-maven-3.0.4-bin\apache-maven-3.0.4\"/>
+    <property name="java.io.tmpdir" value="C:\Users\Selenium\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Selenium\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Softwares\apache-maven-3.0.4-bin\apache-maven-3.0.4\/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/CucumberMavenReportingPlugin/3/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_75\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\selenium\WebDriverNew\CucumberNew"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/CucumberMavenReportingPlugin/"/>
+    <property name="LOGONSERVER" value="\\SELENIUM-W2A"/>
+    <property name="USERDOMAIN" value="Selenium-W2A"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Softwares\apache-maven-3.0.4-bin\apache-maven-3.0.4\"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="3"/>
+    <property name="ANDROID_HOME" value="C:\Users\Selenium\AppData\Local\Android\sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="ANALYSIS_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="PCBRAND" value="Pavilion"/>
+    <property name="=C:" value="C:\Softwares"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\Selenium\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="C:\Users\Selenium\.jenkins\workspace\CucumberMavenReportingPlugin"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Selenium\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase time="0.003" classname="| Manual | Less | Low | Average |" name="Given I am a \&quot;Manual\&quot; Tester"/>
+  <testcase time="0" classname="| Manual | Less | Low | Average |" name="When I apply for a job"/>
+  <testcase time="0" classname="| Manual | Less | Low | Average |" name="Then I got a \&quot;Less\&quot; paid job"/>
+  <testcase time="0.001" classname="| Manual | Less | Low | Average |" name="And I am \&quot;Low\&quot; satisfied with my salary"/>
+  <testcase time="0.001" classname="| Manual | Less | Low | Average |" name="But My parents are \&quot;Average\&quot; satisfied"/>
+  <testcase time="0.001" classname="| Manual | Less | Low | Average |" name="| Manual | Less | Low | Average |"/>
+  <testcase time="0" classname="| Automation | High | Very | Highly |" name="Given I am a \&quot;Automation\&quot; Tester"/>
+  <testcase time="0" classname="| Automation | High | Very | Highly |" name="When I apply for a job"/>
+  <testcase time="0" classname="| Automation | High | Very | Highly |" name="Then I got a \&quot;High\&quot; paid job"/>
+  <testcase time="0" classname="| Automation | High | Very | Highly |" name="And I am \&quot;Very\&quot; satisfied with my salary"/>
+  <testcase time="0.001" classname="| Automation | High | Very | Highly |" name="But My parents are \&quot;Highly\&quot; satisfied"/>
+  <testcase time="0.001" classname="| Automation | High | Very | Highly |" name="| Automation | High | Very | Highly |"/>
+  <testcase time="0" classname="| Database | Good | Better | Better |" name="Given I am a \&quot;Database\&quot; Tester"/>
+  <testcase time="0" classname="| Database | Good | Better | Better |" name="When I apply for a job"/>
+  <testcase time="0.001" classname="| Database | Good | Better | Better |" name="Then I got a \&quot;Good\&quot; paid job"/>
+  <testcase time="0" classname="| Database | Good | Better | Better |" name="And I am \&quot;Better\&quot; satisfied with my salary"/>
+  <testcase time="0" classname="| Database | Good | Better | Better |" name="But My parents are \&quot;Better\&quot; satisfied"/>
+  <testcase time="0.001" classname="| Database | Good | Better | Better |" name="| Database | Good | Better | Better |"/>
+</testsuite>
